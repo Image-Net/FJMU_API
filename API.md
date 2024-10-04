@@ -2,7 +2,7 @@
 <summary>Login APIs</summary>
 
 |           API           |Available|
-| ----------------------- | ------- |
+| ----------------------- | :-----: |
 | xx_eone_zhmmdl          |   ✅   |
 | xx_eone_yzmdl_sendsms   |   ✅   |
 | xx_eone_yzmdl           |   ✅   |
@@ -20,7 +20,7 @@
 <summary>Data APIs</summary>
 
 |           API           |Available|
-| ----------------------- | ------- |
+| ----------------------- | :-----: |
 | xx_xsfw_jbxx            |   ❌   |
 
 </details>
@@ -29,7 +29,7 @@
 <summary>Function APIs</summary>
 
 |           API           |Available|
-| ----------------------- | ------- |
+| ----------------------- | :-----: |
 | pdf_exportimg           |   ❌   |
 
 </details>
