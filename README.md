@@ -12,6 +12,7 @@ Please read [API.md](https://github.com/Image-Net/FJMU_API/blob/main/API.md)
 
 ## Using API
 All APIs require the use of POST method
+
 You found this repository, you should know what the HOST for POST requests is
 
 ## Support
