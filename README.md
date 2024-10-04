@@ -23,6 +23,7 @@ The following ISSUE will be directly closed
 
 > Please note that developers are not obligated to reply to your questions. You should have basic questioning skills.
 > For how to ask questions, please read[《How To Ask Questions The Smart Way》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
+
 > [!NOTE]
 > 有用的信息，用户在浏览内容时应该知道。
 
