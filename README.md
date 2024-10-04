@@ -16,7 +16,6 @@ All APIs require the use of POST method
 ## Support
 The following ISSUE will be directly closed
 
-- Submitting BUG without using Template
 - Ask known question
 - Cannot find the key point
 - Repeat question
