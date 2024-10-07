@@ -22,6 +22,8 @@
 |           API           |Available|
 | ----------------------- | :-----: |
 | xx_xsfw_jbxx            |   ❌   |
+| xx_zxzx_ml              |   ✅   |
+| xx_zxzx_nr              |   ✅   |
 
 </details>
 
@@ -30,6 +32,10 @@
 
 |           API           |Available|
 | ----------------------- | :-----: |
-| pdf_exportimg           |   ❌   |
+| pdf_exportimg           |   ✅   |
+| qrcode_decode           |   ✅   |
+| qrcode_encode_qrcode    |   ✅   |
+| qrcode_encode_text-1    |   ✅   |
+| qrcode_encode_text-2    |   ✅   |
 
 </details>
