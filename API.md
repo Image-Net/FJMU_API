@@ -3,16 +3,16 @@
 
 |                        API                        |Available|                                      Parameter                                      |
 | ------------------------------------------------- | :-----: | ----------------------------------------------------------------------------------- |
-| xx_eone_zhmmdl                                    |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_eone_yzmdl_sendsms                             |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_eone_yzmdl                                     |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_eone_jwglxtdl                                  |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_eone_jxzhptdl                                  |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_vpndl                                          |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_vpn_ehalldl                                    |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_ehalldl                                        |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_ehall_zhcpdl                                   |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_ehall_jbxxdl                                   |   ✅   | xx_eone_zhmmdl                                                                      |
+| xx_eone_zhmmdl                                    |   ✅   | STR username STR password \[STR cookies\]                                           |
+| xx_eone_yzmdl_sendsms                             |   ✅   | NUM phone \[STR cookies\]                                                           |
+| xx_eone_yzmdl                                     |   ✅   | NUM phone NUM code STR username \[STR cookies\]                                     |
+| xx_eone_jwglxtdl                                  |   ✅   | STR username STR password \[STR cookies\]                                           |
+| xx_eone_jxzhptdl                                  |   ✅   | STR username STR password \[STR cookies\]                                           |
+| xx_vpndl                                          |   ✅   | STR username STR password                                                           |
+| xx_vpn_ehalldl                                    |   ✅   | STR cookies                                                                         |
+| xx_ehalldl                                        |   ✅   | STR username STR password                                                           |
+| xx_ehall_zhcpdl                                   |   ✅   | STR cookies \[BOOL intranet\]                                                       |
+| xx_ehall_jbxxdl                                   |   ✅   | STR cookies \[BOOL intranet\]                                                       |
 
 </details>
 
@@ -21,9 +21,9 @@
 
 |                        API                        |Available|                                      Parameter                                      |
 | ------------------------------------------------- | :-----: | ----------------------------------------------------------------------------------- |
-| xx_xsfw_jbxx                                      |   ❌   | xx_eone_zhmmdl                                                                      |
-| xx_zxzx_ml                                        |   ✅   | xx_eone_zhmmdl                                                                      |
-| xx_zxzx_nr                                        |   ✅   | xx_eone_zhmmdl                                                                      |
+| xx_xsfw_jbxx                                      |   ❌   |                                                                                     |
+| xx_zxzx_ml                                        |   ✅   | STR cookies                                                                         |
+| xx_zxzx_nr                                        |   ✅   | STR lk_q STR cookies                                                                |
 
 </details>
 
