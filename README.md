@@ -13,7 +13,7 @@ Please read [API.md](https://github.com/Image-Net/FJMU_API/blob/main/API.md)
 ## Using API
 All APIs require the use of POST method.
 
-All STRING type parameters require BASE64 encoding before URL encoding, while other type parameters do not require BASE64 encoding.
+All STR type parameters require BASE64 encoding before URL encoding, while other type parameters do not require BASE64 encoding.
 
 You found this repository, you should know what the HOST for POST requests is
 
