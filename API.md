@@ -24,7 +24,7 @@
 | xx_xsfw_jbxx                                      | ❌ |                                                                                     ||
 | xx_zxzx_ml                                        | ✅ | STR cookies                                                                         |资讯中心目录，eone的cookies，不支持webvpn访问|
 | xx_zxzx_nr                                        | ✅ | STR lk_q STR cookies                                                                |资讯中心内容，eone的cookies，不支持webvpn访问|
-| xx_tywsyj_detail                                  | ✅ | STR username STR score                                                              |唐云网上阅卷详情|
+| xx_tywsyj_detail                                  | ✅ | STR username NUM score                                                              |唐云网上阅卷详情|
 
 </details>
 
