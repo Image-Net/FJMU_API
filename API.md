@@ -24,11 +24,11 @@
 | xx_xsfw_jbxx                                      | ❌ |                                                                                     ||
 | xx_zxzx_ml                                        | ✅ | STR cookies                                                                         |资讯中心目录，eone的cookies，不支持webvpn访问|
 | xx_zxzx_nr                                        | ✅ | STR lk_q STR cookies                                                                |资讯中心内容，eone的cookies，不支持webvpn访问|
-| xx_tywsyj_detail                                  | ✅ | STR username NUM score                                                              |唐云网上阅卷详情|
-| xx_tywsyj_match-exam                              | ❌ | STR username \[NUM score\] \[NUM njdm\] \[STR kcmc\] \[STR zymc\]                   |唐云网上阅卷智能匹配考试|
-| xx_tywsyj_score-overview                          | ❌ | STR username NUM examid \[STR cookies\]                                             |唐云网上阅卷得分概况，webvpn的cookies|
-| xx_tywsyj_score-analysis                          | ❌ | STR username NUM examid STR cookies                                                 |唐云网上阅卷得分分析，webvpn的cookies|
-| xx_tywsyj_answer-sheet                            | ❌ | STR username NUM examid STR cookies                                                 |唐云网上阅卷答题卡图片，webvpn的cookies|
+| xx_tywsyj_detail                                  | ✅ | STR username NUM score                                                              |唐云网上阅卷详情，该接口将在2024年12月31日失效|
+| xx_tywsyj_match-exam                              | ✅ | STR username STR kcmc \[STR cookies\]                                               |唐云网上阅卷匹配考试，webvpn的cookies|
+| xx_tywsyj_score-overview                          | ✅ | STR username NUM examid \[STR cookies\]                                             |唐云网上阅卷得分概况，webvpn的cookies|
+| xx_tywsyj_score-analysis                          | ✅ | STR username NUM examid STR cookies                                                 |唐云网上阅卷得分分析，webvpn的cookies|
+| xx_tywsyj_answer-sheet                            | ✅ | STR username NUM examid STR cookies                                                 |唐云网上阅卷答题卡图片，webvpn的cookies|
 
 </details>
 
