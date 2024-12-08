@@ -9,6 +9,7 @@
 | xx_eone_jwglxtdl                                  | ✅ | STR username STR password \[STR cookies\]                                           |教务系统登录，cookies是通过webvpn访问|
 | xx_eone_jxzhptdl                                  | ✅ | STR username STR password \[STR cookies\]                                           |M福医大登录，cookies是通过webvpn访问|
 | xx_vpndl                                          | ✅ | STR username STR password                                                           |webvpn登录|
+| xx_vpn_isonline                                   | ✅ | STR cookies                                                                         |webvpn是否在线|
 | xx_vpn_ehalldl                                    | ✅ | STR cookies                                                                         |ehall登录，webvpn的cookies|
 | xx_ehalldl                                        | ✅ | STR username STR password                                                           |ehall登录|
 | xx_ehall_zhcpdl                                   | ✅ | STR cookies \[BOOL intranet\]                                                       |综合测评登录，ehall的cookies|
