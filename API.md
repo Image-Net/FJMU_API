@@ -12,8 +12,8 @@
 | xx_vpn_isonline                                   | ✅ | STR cookies                                                                         |webvpn是否在线|
 | xx_vpn_ehalldl                                    | ✅ | STR cookies                                                                         |ehall登录，webvpn的cookies|
 | xx_ehalldl                                        | ✅ | STR username STR password                                                           |ehall登录|
-| xx_ehall_zhcpdl                                   | ✅ | STR cookies \[BOOL intranet\]                                                       |综合测评登录，ehall的cookies|
-| xx_ehall_jbxxdl                                   | ✅ | STR cookies \[BOOL intranet\]                                                       |基本信息登录，ehall的cookies|
+| xx_ehall_zhcpdl                                   | ✅ | STR cookies \[BOOL intranet\]                                                       |综合测评登录，ehall的cookies，默认webvpn访问|
+| xx_ehall_jbxxdl                                   | ✅ | STR cookies \[BOOL intranet\]                                                       |基本信息登录，ehall的cookies，默认webvpn访问|
 
 </details>
 
@@ -23,9 +23,9 @@
 |                        API                        |Avail|                                      Parameter                                      |Note|
 | ------------------------------------------------- | :-: | ----------------------------------------------------------------------------------- | -- |
 | xx_xsfw_jbxx                                      | ❌ |                                                                                     ||
-| xx_zxzx_ml                                        | ✅ | STR cookies \[BOOL intranet\]                                                       |资讯中心目录，eone的cookies，不支持webvpn访问|
-| xx_zxzx_nr                                        | ✅ | STR lk_q STR cookies \[BOOL intranet\]                                              |资讯中心内容，eone的cookies，不支持webvpn访问|
-| xx_tywsyj_detail                                  | ✅ | STR username NUM score                                                              |唐云网上阅卷详情，该接口将在2024年12月31日失效|
+| xx_zxzx_ml                                        | ✅ | STR cookies \[BOOL intranet\]                                                       |资讯中心目录，eone的cookies，默认webvpn访问|
+| xx_zxzx_nr                                        | ✅ | STR lk_q STR cookies \[BOOL intranet\]                                              |资讯中心内容，eone的cookies，默认webvpn访问|
+| xx_jwglxt_lesson-timetable                        | ❌ | STR username NUM xnm NUM xqm STR cookies \[BOOL intranet\]                          |教务系统学生课表，jwglxt的cookies，默认webvpn访问|
 | xx_tywsyj_match-exam                              | ✅ | STR username STR kcmc \[STR cookies\]                                               |唐云网上阅卷匹配考试，webvpn的cookies|
 | xx_tywsyj_score-overview                          | ✅ | STR username NUM examid \[STR cookies\]                                             |唐云网上阅卷得分概况，webvpn的cookies|
 | xx_tywsyj_score-analysis                          | ✅ | STR username NUM examid STR cookies                                                 |唐云网上阅卷得分分析，webvpn的cookies|
