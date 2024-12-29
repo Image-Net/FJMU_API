@@ -25,9 +25,9 @@
 | xx_xsfw_jbxx                                      | ❌ |                                                                                     ||
 | xx_zxzx_ml                                        | ✅ | STR cookies \[BOOL intranet\]                                                       |资讯中心目录，eone的cookies，默认webvpn访问|
 | xx_zxzx_nr                                        | ✅ | STR lk_q STR cookies \[BOOL intranet\]                                              |资讯中心内容，eone的cookies，默认webvpn访问|
-| xx_jwglxt_xskb                                    | ❌ | STR username NUM xnm NUM xqm STR cookies \[BOOL intranet\]                          |教务系统学生课表，jwglxt的cookies，默认webvpn访问|
-| xx_jwglxt_xsxk                                    | ❌ | STR username NUM xnm NUM xqm STR cookies \[BOOL intranet\]                          |教务系统学生选课，jwglxt的cookies，默认webvpn访问|
-| xx_jwglxt_jxjdb                                   | ❌ | STR jxb_id STR cookies \[BOOL intranet\]                                            |教务系统教学进度表，jwglxt的cookies，默认webvpn访问|
+| xx_jwglxt_xskb                                    | ✅ | STR username NUM xnm NUM xqm STR cookies \[BOOL intranet\]                          |教务系统学生课表，jwglxt的cookies，默认webvpn访问|
+| xx_jwglxt_xsxk                                    | ✅ | STR username NUM xnm NUM xqm STR cookies \[BOOL intranet\]                          |教务系统学生选课，jwglxt的cookies，默认webvpn访问|
+| xx_jwglxt_jxjdb                                   | ✅ | STR jxb_id STR cookies \[BOOL intranet\]                                            |教务系统教学进度表，jwglxt的cookies，默认webvpn访问|
 | xx_tywsyj_match-exam                              | ✅ | STR username STR kcmc \[STR cookies\]                                               |唐云网上阅卷匹配考试，webvpn的cookies|
 | xx_tywsyj_score-overview                          | ✅ | STR username NUM examid \[STR cookies\]                                             |唐云网上阅卷得分概况，webvpn的cookies|
 | xx_tywsyj_score-analysis                          | ✅ | STR username NUM examid STR cookies                                                 |唐云网上阅卷得分分析，webvpn的cookies|
