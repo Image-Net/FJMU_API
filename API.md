@@ -26,7 +26,7 @@
 | xx_eone_self-info                                 | ✅ | STR cookies \[BOOL intranet\]                                                       |一网通办学院学历姓名，eone的cookies，默认webvpn访问|
 | xx_eone_self-info                                 | ✅ | \[STR username\] \[STR peoplename\] \[STR mail\] STR cookies \[BOOL intranet\]      |一网通办个人信息，eone的cookies，默认webvpn访问|
 | xx_zxzx_ml                                        | ✅ | STR cookies \[BOOL intranet\]                                                       |资讯中心目录，eone的cookies，默认webvpn访问|
-| xx_zxzx_nr                                        | ✅ | STR lk_q STR cookies \[BOOL intranet\]                                              |资讯中心内容，eone的cookies，默认webvpn访问|
+| xx_zxzx_nr                                        | ✅ | NUM articleid STR cookies \[BOOL intranet\]                                         |资讯中心内容，eone的cookies，默认webvpn访问|
 | xx_jwglxt_xskb                                    | ✅ | STR username NUM xnm NUM xqm STR cookies \[BOOL intranet\]                          |教务系统学生课表，jwglxt的cookies，默认webvpn访问|
 | xx_jwglxt_xsxk                                    | ✅ | STR username NUM xnm NUM xqm STR cookies \[BOOL intranet\]                          |教务系统学生选课，jwglxt的cookies，默认webvpn访问|
 | xx_jwglxt_jxjdb                                   | ✅ | STR jxbid STR cookies \[BOOL intranet\]                                             |教务系统教学进度表，jwglxt的cookies，默认webvpn访问|
