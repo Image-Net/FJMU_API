@@ -35,7 +35,8 @@
 | xx_tywsyj_score-overview                          | ✅ | STR username NUM examid \[STR cookies\]                                             |唐云网上阅卷得分概况，webvpn的cookies|
 | xx_tywsyj_score-analysis                          | ✅ | STR username NUM examid STR cookies                                                 |唐云网上阅卷得分分析，webvpn的cookies|
 | xx_tywsyj_answer-sheet                            | ✅ | STR username NUM examid STR cookies                                                 |唐云网上阅卷答题卡图片，webvpn的cookies|
-| xx_zhcp_rank-szcp                                 | ✅ | NUM zydm NUM njdm \[STR cookies\]                                                   |综测分项-素质测评排名，webvpn的cookies|
+| xx_zhcp                                           | ✅ | STR username STR cookies \[BOOL intranet\]                                          |综合测评，zhcp的cookies，默认webvpn访问|
+| xx_zhcp_rank-szcp                                 | ✅ | NUM zydm NUM njdm \[STR cookies\]                                                   |综合测评分项-素质测评排名，webvpn的cookies|
 
 </details>
 
