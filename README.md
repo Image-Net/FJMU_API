@@ -15,6 +15,8 @@ All APIs require the use of POST method.
 
 All STR type parameters require BASE64 encoding before URL encoding, while other type parameters do not require BASE64 encoding.
 
+All APIs have a timeout of 180 seconds. It is recommended to set your request wait time to 200 seconds.
+
 You found this repository, you should know what the HOST for POST requests is. The PORT for POST requests is open between 500 and 510.
 
 ## Support
