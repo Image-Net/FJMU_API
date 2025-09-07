@@ -8,6 +8,7 @@
 | xx_eone_yzmdl                                     | ✅ | NUM phone NUM code STR username \[STR cookies\]                                     |eone验证码登录，cookies是通过webvpn访问|
 | xx_eone_jwglxtdl                                  | ✅ | \[STR username\] \[STR password\] \[STR cookies\] \[BOOL intranet\]                 |教务系统登录，可提交eone账号密码或cookies，默认webvpn访问|
 | xx_eone_jxzhptdl                                  | ✅ | \[STR username\] \[STR password\] \[STR cookies\] \[BOOL intranet\]                 |M福医大登录，可提交eone账号密码或cookies，默认webvpn访问|
+| xx_eone_yjsgldl                                   | ✅ | \[STR username\] \[STR password\] \[STR cookies\] \[BOOL intranet\]                 |研究生系统登录，可提交eone账号密码或cookies，默认webvpn访问|
 | xx_vpndl                                          | ✅ | STR username STR password \[BOOL onlyvpncookies\]                                   |webvpn登录|
 | xx_vpn_isonline                                   | ✅ | STR cookies                                                                         |webvpn是否在线|
 | xx_vpn_ehalldl                                    | ❌ | STR cookies                                                                         |ehall登录，可提交eone账号密码或cookies，webvpn的cookies|
@@ -36,6 +37,9 @@
 | xx_tywsyj_score-analysis                          | ✅ | STR username NUM examid STR cookies                                                 |唐云网上阅卷得分分析，webvpn的cookies|
 | xx_tywsyj_score-point                             | ✅ | NUM examid \[STR cookies\]                                                          |唐云网上阅卷得分点，webvpn的cookies|
 | xx_tywsyj_answer-sheet                            | ✅ | STR username NUM examid STR cookies                                                 |唐云网上阅卷答题卡图片，webvpn的cookies|
+| xx_yjsgl_jbxx                                     | ✅ | STR cookies \[BOOL intranet\]                                                       |研究生系统基本信息，yjsgl的cookies，默认webvpn访问|
+| xx_yjsgl_xsxq                                     | ✅ | STR cookies \[BOOL intranet\]                                                       |研究生系统学生学期，yjsgl的cookies，默认webvpn访问|
+| xx_yjsgl_xskb                                     | ✅ | NUM xqm STR cookies \[BOOL intranet\]                                               |研究生系统学生课表，yjsgl的cookies，默认webvpn访问|
 | xx_zhcp                                           | ✅ | STR username STR cookies \[BOOL intranet\]                                          |综合测评，zhcp的cookies，默认webvpn访问|
 | xx_zhcp_rank-szcp                                 | ✅ | \[STR username\] \[NUM zydm\] \[NUM njdm\] STR kch \[STR cookies\]                  |综合测评分项-素质测评排名，附加返回体测达不达标、课程达不达标，jxzxjh的kch，webvpn的cookies|
 | xx_zhcp_rank-zhcp                                 | ✅ | \[STR username\] \[NUM zydm\] \[NUM njdm\] \[STR cookies\]                          |综合测评分项-综合测评排名，webvpn的cookies|
