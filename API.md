@@ -10,8 +10,8 @@
 | xx_eone_yjsgldl                                   | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL intranet\]      |研究生系统登录，可提交eone登录信息或cookies，默认webvpn访问|
 | xx_vpndl                                          | ✅ | STR username STR password STR userxh \[BOOL onlyvpncookies\]                        |webvpn登录|
 | xx_vpn_isonline                                   | ✅ | STR cookies                                                                         |webvpn是否在线|
-| xx_vpn_ehalldl                                    | ❌ | STR cookies                                                                         |ehall登录，可提交eone登录信息或cookies，webvpn的cookies|
-| xx_ehalldl                                        | ❌ | STR username STR password                                                           |ehall登录|
+| xx_vpn_ehalldl                                    | ❌ | STR cookies                                                                         |不支持|
+| xx_ehalldl                                        | ❌ | STR username STR password                                                           |不支持|
 | xx_ehall_zhcpdl                                   | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL intranet\]      |综合测评登录，可提交eone登录信息或cookies，默认webvpn访问|
 | xx_ehall_jbxxdl                                   | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL intranet\]      |基本信息登录，可提交eone登录信息或cookies，默认webvpn访问|
 
