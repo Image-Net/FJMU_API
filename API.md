@@ -4,8 +4,8 @@
 |                        API                        |Avail|                                      Parameter                                      |Note|
 | ------------------------------------------------- | :-: | ----------------------------------------------------------------------------------- | -- |
 | xx_eone_zhmmdl                                    | ✅ | STR username STR password STR userxh \[BOOL intranet\]                              |eone登录，默认webvpn访问|
-| xx_eone_sendsms                                   | ✅ | STR userxh NUM phone                                                                |eone发送验证码|
-| xx_eone_forgetpwd                                 | ✅ | STR userxh NUM phone NUM captcha STR newpwd                                         |eone忘记密码|
+| xx_eone_sendsms                                   | ✅ | NUM username STR userxh \[BOOL intranet\]                                              |eone发送验证码，默认webvpn访问|
+| xx_eone_forgetpwd                                 | ✅ | NUM username STR userxh NUM captcha STR newpwd \[BOOL intranet\]                       |eone忘记密码，默认webvpn访问|
 | xx_eone_jwglxtdl                                  | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL intranet\]      |教务系统登录，可提交eone登录信息或cookies，默认webvpn访问|
 | xx_eone_jxzhptdl                                  | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL intranet\]      |M福医大登录，可提交eone登录信息或cookies，默认webvpn访问|
 | xx_eone_yjsgldl                                   | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL intranet\]      |研究生系统登录，可提交eone登录信息或cookies，默认webvpn访问|
