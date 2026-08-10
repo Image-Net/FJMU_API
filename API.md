@@ -3,10 +3,10 @@
 
 |                        API                        |Avail|                                                        Parameter                                                       |                        Return                        |Note|
 | ------------------------------------------------- | :-: | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | -- |
-| xx_atrustdl                                       | ❌ | STR username STR password STR userxh \[BOOL onlyvpncookies\]                                                          |成功返回cookies，失败返回!!error!!!!warning!!加原因|atrust登录|
+| xx_atrustdl                                       | ❎️ | STR username STR password STR userxh \[BOOL onlyvpncookies\]                                                          |成功返回cookies，失败返回!!error!!!!warning!!加原因|atrust登录|
 | xx_ehall_jbxxdl                                   | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL intranet\]                                         |成功返回cookies，失败返回!!error!!!!warning!!加原因|基本信息登录，可提交eone登录信息或cookies，默认webvpn访问|
 | xx_ehall_zhcpdl                                   | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL intranet\]                                         |成功返回cookies，失败返回!!error!!!!warning!!加原因|综合测评登录，可提交eone登录信息或cookies，默认webvpn访问|
-| xx_ehalldl                                        | ❌ | STR username STR password                                                                                              |                          ❌                          |不支持|
+| xx_ehalldl                                        | ❎️ | STR username STR password                                                                                              |                          ❎️                          |不支持|
 | xx_eone_forgetpwd                                 | ✅ | NUM username STR userxh NUM captcha STR newpwd \[BOOL intranet\]                                                       ||eone忘记密码，默认webvpn访问|
 | xx_eone_jwglxtdl                                  | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL singlecookies\] \[BOOL intranet\]                  |成功返回cookies，失败返回!!error!!!!warning!!加原因|教务系统登录，可提交eone登录信息或cookies，默认webvpn访问，默认融合cookies|
 | xx_eone_jxzhptdl                                  | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL singlecookies\] \[BOOL intranet\]                  |成功返回cookies，失败返回!!error!!!!warning!!加原因|M福医大登录，可提交eone登录信息或cookies，默认webvpn访问，默认融合cookies|
@@ -14,7 +14,7 @@
 | xx_eone_tywsyjdl                                  | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL singlecookies\] \[BOOL intranet\]                  |成功返回cookies，失败返回!!error!!!!warning!!加原因|唐云网上阅卷登录，可提交eone登录信息或cookies，默认webvpn访问，默认融合cookies|
 | xx_eone_yjsgldl                                   | ✅ | \[STR username\] \[STR password\] STR userxh \[STR cookies\] \[BOOL singlecookies\] \[BOOL intranet\]                  |成功返回cookies，失败返回!!error!!!!warning!!加原因|研究生系统登录，可提交eone登录信息或cookies，默认webvpn访问，默认融合cookies|
 | xx_eone_zhmmdl                                    | ✅ | STR username STR password STR userxh \[BOOL intranet\]                                                                 |成功返回cookies，失败返回!!error!!!!warning!!加原因|eone登录，默认webvpn访问|
-| xx_vpn_ehalldl                                    | ❌ | STR cookies                                                                                                            |                          ❌                          |不支持|
+| xx_vpn_ehalldl                                    | ❎️ | STR cookies                                                                                                            |                          ❎️                          |不支持|
 | xx_webvpn_isonline                                | ✅ | STR cookies                                                                                                            |成功返回cookies，失败返回!!error!!加原因|webvpn是否在线|
 | xx_webvpndl                                       | ✅ | STR username STR password STR userxh \[BOOL singlecookies\] \[BOOL onlyvpncookies\]                                    |成功返回cookies，失败返回!!error!!!!warning!!加原因|webvpn登录，默认融合cookies|
 
@@ -25,7 +25,7 @@
 
 |                        API                        |Avail|                                                        Parameter                                                       |                        Return                        |Note|
 | ------------------------------------------------- | :-: | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | -- |
-| xx_xsfw_jbxx                                      | ❌ |                                                                                                                        |                          ❌                          |不支持|
+| xx_xsfw_jbxx                                      | ❎️ |                                                                                                                        |                          ❎️                          |不支持|
 | xx_eone_person-info                               | ✅ | \[STR username\] \[STR peoplename\] \[NUM phone\] \[STR mail\] STR cookies \[BOOL intranet\]                           ||一网通办个人信息，eone的cookies，默认webvpn访问|
 | xx_eone_person-mobile                             | ✅ | STR username STR cookies \[BOOL intranet\]                                                                             ||一网通办手机号，eone的cookies，默认webvpn访问|
 | xx_eone_self-info                                 | ✅ | STR cookies \[BOOL intranet\]                                                                                          ||一网通办学院学历姓名，eone的cookies，默认webvpn访问|
